@@ -1,0 +1,17 @@
+cupy==8.3.0
+easydict==1.9
+h5py==2.10.0
+matplotlib==3.3.3
+numpy==1.16.5
+opencv-python==4.4.0.46
+pandas==1.2.0
+Pillow==8.0.1
+pyheatmap==0.1.12
+PyQt5==5.15.4
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.8.1
+ruamel.yaml==0.16.12
+ruamel.yaml.clib==0.2.2
+scipy==1.4.1
+tables==3.6.1
+tensorflow-gpu==2.0.0
