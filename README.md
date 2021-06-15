@@ -12,7 +12,7 @@ Grooming behaviors detectable in this project and corresponding label names: {'0
 We provide the corresponding data file 'format (.csv)' to format and save the label file. Please enter your own label data before running.
 
 * Label data extraction (record by human vision): 
-Running 'random_create_data.py' which will read the label data in '1_label_by_human.csv', randomly generate the extracted frame, and save the file as '2_random.csv'.
+Running 'random_create_data.py' which will read the label data in **1_label_by_human.csv**, randomly generate the extracted frame, and save the file as '2_random.csv'.
 
 * Training data set generation: 
 Running 'exract_training_data.py', it requires set the path of the '2_random.csv', 'detect folder', 'video folder' and 'storage folder' (refer to 'training_data_base folder' for format). After running, the label file and images data will be generated, and the images data will be stored in the 'label folder'. 
