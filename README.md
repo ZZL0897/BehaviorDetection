@@ -1,14 +1,14 @@
 # BehaviorDetection
 
-##Before running
+## Before running
 First, you need to install DeepLabCut (https://github.com/DeepLabCut/DeepLabCut) and train your own DeepLabCut key points detection model. Detecting your video, obtain key points detection files (move to analyze folder) and corresponding metadata files (move to metadata folder). The labeled key points name in this project are called front and posterior. In the later step, the input key points name should correspond to the label. 
 
 Grooming behaviors detectable in this project and corresponding label names: {'0': 0,' head': 1,' forefoot': 2,' forefoot': 3,' hindfoot': 4,' hindfoot': 5,' abdomen': 6,' wings': 7}
 
-##Installation
+## Installation
 'pip install -r requirements.txt'
 
-##How to use?
+## How to use?
 We provide the corresponding data file 'format (.csv)' to format and save the label file. Please enter your own label data before running.
 
 * Label data extraction (record by human vision): 
